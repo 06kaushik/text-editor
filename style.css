@@ -1,0 +1,60 @@
+body {
+	background-color: whitesmoke;
+	margin-top: 100px;
+}
+div,iframe {
+  width: 100% !important;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+}
+iframe{
+  height:600px !important;
+	background-color: white;
+}
+div {
+  border: none;
+  margin-bottom: 10px;
+}
+button,input,select {
+  margin:5px;
+}
+button {
+	
+	color:black;
+	
+	
+}
+#toolbar {
+  overflow: hidden;
+  background-color: brown;
+}
+
+#toolbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#toolbar a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+#toolbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 50%;
+}
+
