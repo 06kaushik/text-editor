@@ -25,12 +25,12 @@ button {
 	
 	
 }
-#toolbar {
+#navbar {
   overflow: hidden;
-  background-color: brown;
+  background-color: #333;
 }
 
-#toolbar a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -40,21 +40,30 @@ button {
   font-size: 17px;
 }
 
-#toolbar a:hover {
+#navbar a:hover {
   background-color: #ddd;
-  color: white;
+  color: black;
 }
 
-#toolbar a.active {
+#navbar a.active {
   background-color: #4CAF50;
   color: white;
 }
 
-
+.content {
+  padding: 16px;
+}
 
 .sticky {
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
 }
 
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.btn{
+  padding: 0.5em 1.5em;
+}
